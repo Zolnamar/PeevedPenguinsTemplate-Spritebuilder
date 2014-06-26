@@ -221,7 +221,7 @@
 			<key>soundChannel</key>
 			<dict>
 				<key>isExpanded</key>
-				<false/>
+				<true/>
 				<key>keyframes</key>
 				<array/>
 				<key>type</key>
