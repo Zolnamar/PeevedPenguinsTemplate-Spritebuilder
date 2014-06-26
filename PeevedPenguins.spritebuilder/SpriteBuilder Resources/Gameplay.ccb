@@ -127,6 +127,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -452,8 +454,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -501,8 +501,8 @@
 									<real>0.0</real>
 								</array>
 								<array>
-									<real>0.0</real>
-									<real>61</real>
+									<real>0.16015625</real>
+									<real>27.99609375</real>
 								</array>
 								<array>
 									<real>960</real>
@@ -525,8 +525,8 @@
 										<real>61</real>
 									</array>
 									<array>
-										<real>0.0</real>
-										<real>61</real>
+										<real>0.16015625</real>
+										<real>27.99609375</real>
 									</array>
 									<array>
 										<real>0.0</real>
