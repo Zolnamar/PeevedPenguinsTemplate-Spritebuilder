@@ -71,8 +71,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>307</real>
-							<real>48.5</real>
+							<real>195</real>
+							<real>38.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -133,8 +133,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>244</real>
-							<real>45.5</real>
+							<real>152</real>
+							<real>85.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -195,8 +195,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>180</real>
-							<real>44.5</real>
+							<real>119</real>
+							<real>38.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -257,7 +257,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>96</real>
+							<real>43</real>
 							<real>38</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -282,8 +282,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>1.0653553009033203</real>
+							<real>1.0594264268875122</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -346,7 +346,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>188</real>
+							<real>135</real>
 							<real>43</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -376,6 +376,14 @@
 							<false/>
 							<integer>0</integer>
 						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>rotation</string>
+						<key>type</key>
+						<string>Degrees</string>
+						<key>value</key>
+						<real>1.3288472890853882</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -435,7 +443,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>81</real>
+							<real>28</real>
 							<real>91</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -524,7 +532,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>264</real>
+							<real>203</real>
 							<real>39</real>
 							<integer>0</integer>
 							<integer>0</integer>
