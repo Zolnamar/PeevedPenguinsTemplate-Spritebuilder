@@ -22,24 +22,45 @@
 }
 
 // is called when CCB file has completed loading
-- (void)didLoadFromCCB {
+//- (void)didLoadFromCCB {
     // tell this scene to accept touches
-    self.userInteractionEnabled = TRUE;
-    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
-    [_levelNode addChild:level];
+    //self.userInteractionEnabled = TRUE;
+    //CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
+    //[_levelNode addChild:level];
    
     // visualize physics bodies & joints
-    _physicsNode.debugDraw = TRUE;
+  //  _physicsNode.debugDraw = TRUE;
     
     
     // nothing shall collide with our invisible nodes
-    _pullbackNode.physicsBody.collisionMask = @[];
-    _mouseJointNode.physicsBody.collisionMask = @[];
+   // _pullbackNode.physicsBody.collisionMask = @[];
+   // _mouseJointNode.physicsBody.collisionMask = @[];
     
     
-    _physicsNode.collisionDelegate = self;
+  //  _physicsNode.collisionDelegate = self;
     
+//}
+
+
+- (void)didLoadFromCCB
+{
+    // generate a random number between 0.0 and 2.0
+    float delay = (arc4random() % 2000) / 1000.f;
+    // call method to start animation after random delay
+    [self performSelector:@selector(startBlinkAndJump) withObject:nil afterDelay:delay];
 }
+
+
+- (void)startBlinkAndJump
+{
+    // the animation manager of each node is stored in the 'animationManager' property
+    CCAnimationManager* animationManager = self.animationManager;
+    // timelines can be referenced and run by name
+    [animationManager runAnimationsForSequenceNamed:@"BlinkAndJump"];
+}
+
+
+
 
 
 - (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
@@ -169,6 +190,8 @@
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
+
+
 
 
 
