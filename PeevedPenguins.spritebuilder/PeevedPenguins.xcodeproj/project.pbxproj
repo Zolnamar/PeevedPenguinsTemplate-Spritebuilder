@@ -39,6 +39,7 @@
 		E2310FC0195C92E70031C6F6 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = E2310FBF195C92E70031C6F6 /* Penguin.m */; };
 		E2310FC4195C92FF0031C6F6 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = E2310FC3195C92FF0031C6F6 /* Seal.m */; };
 		E2310FC7195CA8850031C6F6 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E2310FC6195CA8850031C6F6 /* Gameplay.m */; };
+		E26FAC4F195D5D3100132D1F /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = E26FAC4E195D5D3100132D1F /* WaitingPenguin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		E2310FC3195C92FF0031C6F6 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
 		E2310FC5195CA8850031C6F6 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
 		E2310FC6195CA8850031C6F6 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
+		E26FAC4D195D5D3100132D1F /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingPenguin.h; path = Source/WaitingPenguin.h; sourceTree = "<group>"; };
+		E26FAC4E195D5D3100132D1F /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingPenguin.m; path = Source/WaitingPenguin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				E2310FC5195CA8850031C6F6 /* Gameplay.h */,
 				E2310FC6195CA8850031C6F6 /* Gameplay.m */,
+				E26FAC4D195D5D3100132D1F /* WaitingPenguin.h */,
+				E26FAC4E195D5D3100132D1F /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 			files = (
 				E2310FC4195C92FF0031C6F6 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				E26FAC4F195D5D3100132D1F /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				E2310FC0195C92E70031C6F6 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
